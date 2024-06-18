@@ -18,7 +18,7 @@ st.set_page_config(
 st.title("Chainlink Predicted Price")
 st.write("Welcome to our Chainlink Price Prediction page, where we leverage advanced machine learning models to forecast future prices of Chainlink. Utilizing historical data and sophisticated algorithms, we provide an interactive and visually engaging representation of predicted Chainlink prices.")
 
-maindf = pd.read_csv('BTC-USD.csv')
+maindf = pd.read_csv('LINK-USD.csv')
 
 closedf = maindf[['Date', 'Close']]
 
